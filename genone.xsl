@@ -22,8 +22,6 @@
     <xsl:value-of select="name" /> (<xsl:value-of select="@pokedexNumber" />): <xsl:value-of select="@classification" /> | 
 </xsl:template>
 
-</xsl:stylesheet>
-
 <!--
   These rules will generate HTML output rather than text. This is to demonstrate
   the power of using XSLT to create pretty output from XML sources.
