@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<!-- "Find all generation-1 Pokemon" -->
-<!-- The result of this stylesheet should be the Pokemon 1 - 151 in the Pokedex -->
+ "Find all generation-1 Pokemon" -->
+  The result of this stylesheet should be the Pokemon 1 - 151 in the Pokedex -->
 
-<!--
   These rules will generate text output rather than text; these are useful for more easily
   figuring out if you got the "select" queries correct. Once you have that figured out,
   then update the HTML version of these rules below (and comment these out!) to see a nicely-
@@ -13,7 +12,7 @@
   Your job here is to write the correct XPath expressions for the "select"s below
   in order to pull back the correct XML nodes. In some of the other stylesheets, you will
   need to write the full "apply-templates" text yourself.
-  -->
+  
 <xsl:template match="/pokedex">
     <xsl:apply-templates select="pokemon[generation = '1']" />
 </xsl:template>
