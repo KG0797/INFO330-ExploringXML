@@ -52,6 +52,5 @@
       <td><xsl:value-of select="@classification" /></td>
     </tr>
 </xsl:template>
--->
 
 </xsl:stylesheet>
