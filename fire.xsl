@@ -56,6 +56,5 @@
       <td><xsl:apply-templates select="type" /></td>
     </tr>
 </xsl:template>
--->
 
 </xsl:stylesheet>
