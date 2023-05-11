@@ -24,7 +24,7 @@
   -->
 <!-- In this template, select all the pokemon that are fire, water, flying or ground -->
 <xsl:template match="/pokedex">
-    <xsl:apply-templates select="pokemon[type='fire' or type='water' or type=flying' or type='ground']" />
+    <xsl:apply-templates select="pokemon[type='fire' or type='water' or type='flying' or type='ground']" />
 </xsl:template>
 
 <!-- In this template, select the name, pokedexNumber, and type in each of the value-of
