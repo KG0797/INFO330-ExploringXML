@@ -7,7 +7,7 @@
         OR type2 = 'fire' = 64 Pokemon -->
 
 <!-- This generates a comma-separated list for the Pokemon types; 'grass, poison' or 'normal' -->
-<xsl:template match="type[position() != last()]"><xsl:value-of select="text()"/>, </xsl:template>
+<xsl:template match="type[position() &lt; last()]"><xsl:value-of select="text()"/>, </xsl:template>
 <xsl:template match="type[position() = last()]">
   <xsl:value-of select="text()"/>
 </xsl:template>
