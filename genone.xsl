@@ -40,7 +40,7 @@
       <th>Name (Pokedex Number)</th>
       <th>Classification</th>
     </tr>
-    <xsl:apply-templates select="pokemon[@pokedexNumber &lt; = 151]" />
+    <xsl:apply-templates select="pokemon[@pokedexNumber <= 151]" />
   </table>
   </body>
   </html>
