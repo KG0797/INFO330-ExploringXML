@@ -24,6 +24,7 @@
 </xsl:template>
 
 <!-- Print the name (classification): types -->
+<!--
 <xsl:template match="pokemon">
     <xsl:value-of select="name" /> (<xsl:value-of select="@pokedexNumber" />): <xsl:apply-templates select="type" /><xsl:text>
 </xsl:text>
