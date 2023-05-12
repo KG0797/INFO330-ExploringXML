@@ -15,7 +15,7 @@
   need to write the full "apply-templates" text yourself.
  --> 
 <xsl:template match="/pokedex">
-    <xsl:apply-templates select="pokemon[@pokedexNumber &lt;= 151]" />
+    <xsl:apply-templates select="pokemon[@pokedexNumber &gt;= 1 and @pokedexNumber &lt;= 151]" />
 </xsl:template>
 
 <xsl:template match="pokemon">
