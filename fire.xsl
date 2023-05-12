@@ -18,7 +18,7 @@
   then update the HTML version of these rules below (and comment these out!) to see a nicely-
   formatted HTML file.
   -->
-<!-- -->
+
 <xsl:template match="/pokedex">
     <xsl:apply-templates select="pokemon[type1 ='fire' or type2='fire']" />
 </xsl:template>
@@ -29,6 +29,7 @@
     <xsl:value-of select="name" /> (<xsl:value-of select="@pokedexNumber" />): <xsl:apply-templates select="type" /><xsl:text>
 </xsl:text>
 </xsl:template>
+-->
 
 <!--
   These rules will generate HTML output rather than text. This is to demonstrate
